@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+/* Navbar */
+.custom-navbar {
+    background-color: #d71920;
+}
+
+/* Hero */
+.hero-section {
+    height: 450px;
+    background: linear-gradient(rgba(215,25,32,0.85), rgba(215,25,32,0.85)),
+                url("../assets/showroom-toyota.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Section Title */
+.section-title {
+    color: #d71920;
+    font-weight: bold;
+}
+
+/* Dashboard */
+.dashboard-card {
+    border: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-10px);
+}
+
+.icon-dashboard {
+    font-size: 40px;
+    color: #d71920;
+}
+
+/* Mobil Card */
+.mobil-card {
+    border: none;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.mobil-card:hover {
+    transform: scale(1.05);
+}
+
+/* Form */
+.form-custom {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+.footer-custom {
+    background-color: #d71920;
+    color: white;
+}
